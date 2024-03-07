@@ -8,6 +8,13 @@
     @vite('resources/js/app.js');
 </head>
 <body>
-    
+
+    @include('includes.header')
+
+    @yield('main-content')
+
+
+    @include('includes.topfooter')
+    @include('includes.bottomfooter')
 </body>
 </html>
