@@ -15,7 +15,7 @@
                     <li><a href="#">COLLECTIONABLES</a></li>
                     <li><a href="#">VIDEO</a></li>
                     <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
+                    <li><a href="{{route('news')}}">NEWS</a></li>
                     <li><a href="#">SHOP</a></li>
                 </ul>
             </nav>
