@@ -1,5 +1,5 @@
 @extends('layouts.main')
-    @include('includes.header')
+
    @section('main-content')
      <main class="container">
         <section id="products">
@@ -16,5 +16,4 @@
         </section>
     </main>
    @endsection
-    @include('includes.topfooter')
-    @include('includes.bottomfooter')
+
