@@ -24,3 +24,10 @@ Route::get('/news', function () {
     return view('news');
 })->name('news');
 
+
+Route::get('/comics/{index}', function ($index) {
+    $comics = config('comics');
+    $comic = $comics[$index];
+    return view('comics.show', compact('comic'));
+})->name('comic');
+
